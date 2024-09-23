@@ -1,0 +1,48 @@
+$color_1: white;
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_1: #f2f2f2;
+$background-color_2: #ddd;
+$background-color_3: #04AA6D;
+
+#customers {
+	font-family: $font-family_1;
+	border-collapse: collapse;
+	width: 100%;
+	td {
+		border: 1px solid #ddd;
+		padding: 8px;
+	}
+	th {
+		border: 1px solid #ddd;
+		padding: 8px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: left;
+		background-color: $background-color_3;
+		color: $color_1;
+		img{
+			
+			width: 50px;
+			height: 50px;
+			border-radius:12px
+		}
+	}
+	tr {
+		&:nth-child(even) {
+			background-color: $background-color_1;
+		}
+		&:hover {
+			background-color: $background-color_2;
+		}
+		.delete{
+			font-size: 40px;
+			color: rgb(255, 85, 85);
+			cursor: pointer;
+		}
+		.view{
+			font-size: 40px;
+			color: #000;
+			cursor: pointer;
+		}
+	}
+}

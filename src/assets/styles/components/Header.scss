@@ -1,0 +1,19 @@
+.header{
+    height: 55px;
+    background-color: #262626;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    ul{
+       display: flex;
+        li{ 
+            margin-left: 20px;
+            a{
+                color: #fff;
+            font-size: 30px;
+            
+        }
+    }
+}
+}
